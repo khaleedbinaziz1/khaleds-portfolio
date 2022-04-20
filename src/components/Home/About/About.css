@@ -1,0 +1,54 @@
+.about-sec{
+    padding-top:60px ;
+   background: radial-gradient(white,#D7D7D7);
+  
+    color: black;
+    overflow-x: hidden;
+}
+.about-me h2{
+    font-weight: 900;
+   
+    padding: 10px 0px 0px 0px;
+   text-align: center;
+}
+.about-me{
+  
+    border: 6px solid black;
+    width: 350px;
+    margin: auto;
+}
+.des{
+    padding-top:50px ;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.about-sec img{
+    padding: 60px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.two-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div-1{
+    width:40%;
+    padding: 30px;
+}
+.icon {
+    font-size: 30px;
+color: rgb(184, 175, 175);
+}
+.service-box{
+    text-align: center;
+}
+.service-box h4{
+    position: relative;
+    font-weight: 900;
+}

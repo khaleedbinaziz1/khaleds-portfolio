@@ -1,12 +1,37 @@
 .App {
   text-align: center;
 }
+.me{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20%;
+}
 
+
+ body {
+  max-width: 100%;
+  overflow-x: hidden;
+  color: white;
+  font-family: raleway;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(transparent, #bac3cc);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(transparent, #6a776c);
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -25,7 +50,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +60,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (min-width: 375px) {
+  .me{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60%;
+  }
+  
+}
+@media screen and (min-width: 700px) {
+  .me{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20%;
+  }
+  
 }

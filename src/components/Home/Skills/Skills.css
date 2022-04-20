@@ -1,0 +1,28 @@
+.skills {
+  background: radial-gradient(white, #d7d7d7);
+  color: black;
+  position: relative;
+  left: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.tiny-box img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.tiny-box:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.3);
+}
+.heading p {
+  border: 2px solid black;
+  width: 100%;
+  font-weight: 900;
+}
+.slice {
+  display: flex;
+  justify-content: space-evenly;
+}
